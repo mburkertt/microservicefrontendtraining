@@ -1,4 +1,4 @@
-package ch.erni.frontend.controller;
+package de.blackforestsolutions.frontend.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

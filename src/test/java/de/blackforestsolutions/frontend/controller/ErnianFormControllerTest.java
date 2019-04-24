@@ -1,4 +1,4 @@
-package ch.erni.frontend.controller;
+package de.blackforestsolutions.frontend.controller;
 
 
 import static org.hamcrest.Matchers.containsString;
@@ -6,7 +6,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 
-import ch.erni.frontend.service.FileWriterReaderService;
+import de.blackforestsolutions.frontend.service.FileWriterReaderService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ch.erni.frontend;
+package de.blackforestsolutions.frontend;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

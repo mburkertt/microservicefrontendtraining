@@ -1,6 +1,6 @@
-package ch.erni.frontend.service;
+package de.blackforestsolutions.frontend.service;
 
-import ch.erni.frontend.model.Ernian;
+import de.blackforestsolutions.frontend.model.Ernian;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

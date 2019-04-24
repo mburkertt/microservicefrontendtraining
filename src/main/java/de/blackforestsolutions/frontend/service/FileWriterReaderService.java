@@ -1,6 +1,6 @@
-package ch.erni.frontend.service;
+package de.blackforestsolutions.frontend.service;
 
-import ch.erni.frontend.model.Ernian;
+import de.blackforestsolutions.frontend.model.Ernian;
 
 import java.util.Map;
 import java.util.UUID;

@@ -1,8 +1,7 @@
-package ch.erni.frontend.controller;
+package de.blackforestsolutions.frontend.service;
 
-import ch.erni.frontend.model.Ernian;
+import de.blackforestsolutions.frontend.model.Ernian;
 
-import java.util.Date;
 import java.util.Locale;
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package ch.erni.frontend.model;
+package de.blackforestsolutions.frontend.model;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

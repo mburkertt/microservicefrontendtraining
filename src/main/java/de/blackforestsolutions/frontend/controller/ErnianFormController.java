@@ -1,7 +1,7 @@
-package ch.erni.frontend.controller;
+package de.blackforestsolutions.frontend.controller;
 
-import ch.erni.frontend.model.Ernian;
-import ch.erni.frontend.service.FileWriterReaderService;
+import de.blackforestsolutions.frontend.model.Ernian;
+import de.blackforestsolutions.frontend.service.FileWriterReaderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

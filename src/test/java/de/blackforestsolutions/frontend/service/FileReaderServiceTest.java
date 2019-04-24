@@ -1,14 +1,14 @@
-package ch.erni.frontend.service;
+package de.blackforestsolutions.frontend.service;
 
-import ch.erni.frontend.model.Ernian;
+import de.blackforestsolutions.frontend.model.Ernian;
 import org.junit.Test;
 
 import java.util.Map;
 import java.util.UUID;
 
-import static ch.erni.frontend.service.ErnianObjectMother.getAdrianHappyPath;
-import static ch.erni.frontend.service.ErnianObjectMother.getAdrianNullId;
-import static ch.erni.frontend.service.ErnianObjectMother.getClaudioHappyPath;
+import static de.blackforestsolutions.frontend.service.ErnianObjectMother.getAdrianHappyPath;
+import static de.blackforestsolutions.frontend.service.ErnianObjectMother.getAdrianNullId;
+import static de.blackforestsolutions.frontend.service.ErnianObjectMother.getClaudioHappyPath;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class FileReaderServiceTest {

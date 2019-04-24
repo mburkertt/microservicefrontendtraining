@@ -1,8 +1,8 @@
-package ch.erni.frontend.controller;
+package de.blackforestsolutions.frontend.controller;
 
 
-import ch.erni.frontend.model.Ernian;
-import ch.erni.frontend.service.FileWriterReaderService;
+import de.blackforestsolutions.frontend.model.Ernian;
+import de.blackforestsolutions.frontend.service.FileWriterReaderService;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +21,6 @@ import java.util.Locale;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.mockito.Matchers.any;
-import static org.mockito.Mockito.when;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(ErnianFormController.class)
@@ -36,7 +35,6 @@ public class ErnianFormControllerSeleniumTest {
     String BASEURL = host + "/ernian";
 
     @Test
-    @Ignore
     public void fill_in_form() {
         ArgumentCaptor<Ernian> captor = ArgumentCaptor.forClass(Ernian.class);
 
